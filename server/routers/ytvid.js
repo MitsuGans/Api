@@ -7,7 +7,7 @@ async function getYtVid(URL) {
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
-    await page.goto('https://www.y2mate.com/');
+    await page.goto('https://ytmp4.top/');
 
     await page.type('#txt-url', `${URL}`);
 	await page.click('#btn-submit', {delay: 300});
