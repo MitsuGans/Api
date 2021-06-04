@@ -30,8 +30,8 @@ app.use(bodyParser.json());
 
 app.use('/events', eventsRouter);
 app.use('/tiktok', tiktok);
-app.use('/ytvid', youtube);
-app.use('/ytmus', ytmus);
+app.use('/ytv', youtube);
+app.use('/yta', ytmus);
 app.use('/ig', instagram);
 app.use('/twimg', twimg);
 app.use('/twvid', twvid);
