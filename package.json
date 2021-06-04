@@ -1,5 +1,5 @@
 {
-  "name": "Personal Api",
+  "name": "personal-api",
   "version": "1.0.0",
   "description": "Api Private",
   "main": "server.js",
